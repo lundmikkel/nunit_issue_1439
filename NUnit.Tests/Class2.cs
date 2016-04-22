@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace NUnit.Tests
 {
-    internal class Class2<T> : IInterface<T>, IEquatable<IInterface<T>>
+    public class Class2<T> : IInterface<T>, IEquatable<IInterface<T>>
     {
 
         private readonly T[] _enumerable;
